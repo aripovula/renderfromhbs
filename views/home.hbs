@@ -1,0 +1,19 @@
+<html>
+ <head>
+ </head>
+   <body>
+        <script src="jquery-3.3.1.min.js"></script>
+        <script type='text/javascript' src='hbs.js'></script>
+       <script src="home2.js"></script>       
+
+    My bars:
+    <ul class="barsNav"></ul>
+
+    <script id="bar-template" type="x-handlebars-template">
+        {{#each this}}
+            <li class="bars">{{name}} is @ {{place}} </li>
+        {{/each}}
+    </script>
+    
+   </body>
+</html>
